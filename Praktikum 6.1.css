@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    border: 1px;
+    padding: 0;
+}
+
+.container-satu {
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(221, 232, 236);
+    column-gap: 10px;
+    text-align: center;
+}
+
+.box-satu {
+    width: 33%;
+}
+
+.container-dua {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    column-gap: 10px;
+    text-align: center;
+}
+.box-dua {
+    width: 20%;
+}
